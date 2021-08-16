@@ -2,95 +2,173 @@ import java.util.ArrayList;
 
 public class Set
 {
-    public static void findIntersection (ArrayList<Integer> L1, ArrayList<Integer> L2, ArrayList<Integer> L3)
-    {
-        for (int i = 0; i < L1.size(); i++)
-        {
-            int x = L1.get(i);
-            if (isFound(x, L2))
-            {
-                L3.add(x);
-            }
-         
-         }
-     }
+	private ArrayList<Integer> L;
 
-    public static void findUnion (ArrayList<Integer> L1, ArrayList<Integer> L2)
-    {
-        for (int i = 0; i < L1.size(); i++)
-        {
-            int x = L1.get(i);
-            if (isNotFound(x, L2))
-            {
-                L2.add(x);
-            }
-        }
-    }
-    
-    public static boolean isFound(int x, ArrayList<Integer> L) 
-    {
-        boolean found = false;
-        for (int i = 0; i < L.size(); i++)
-        {
-            if (L.get(i) == x) 
-            {
-               found = true; 
-               break;
-            }
-        }
-        return found;
-    }
+	public Set()
+	{
+		L = new ArrayList<Integer>();
+	}
 
-    public static boolean isNotFound(int x, ArrayList<Integer> L) 
-    {
-        boolean found = false;
-        for (int i = 0; i < L.size(); i++)
-        {
-            if (L.get(i) == x) 
-            {
-               found = true; 
-               break;
-            }
-        }
-        return !found;
-    }
+	public Integer get(int i)
+	{
+		return L.get(i);
+	}
 
-    public static void main(String[] args)
-    {
-        ArrayList<Integer> L1 = new ArrayList<Integer>();
+	public int size()
+	{
+		return L.size();
+	}
 
-        L1.add(9);
-        L1.add(11); 
-        L1.add(15); 
-        L1.add(19);
-        L1.add(32);
-        L1.add(45);
-        L1.add(58);
-        L1.add(74);
+	public boolean isMember(int x)
+	{
+		boolean member = false;
+		for (int i = 0; i < L.size(); i++)
+		{
+			if (L.get(i) == x)
+			{
+				member = true;
+				break;
+			}
+		}
+		return member;
+	}
 
-        ArrayList<Integer> L2 = new ArrayList<Integer>();
+	public boolean isMember(Integer x)
+	{
+		boolean member = false;
+		for (int i = 0; i < L.size(); i++)
+		{
+			if (L.get(i) == x)
+			{
+				member = true;
+				break;
+			}
+		}
+		return member;
+	}
 
-        L2.add(19);
-        L2.add(22);
-        L2.add(11); 
-        L2.add(28);
-        L2.add(32);
-        L2.add(74);
+	public boolean isSubset(Set b)
+	{
+		boolean subset = true;
+		for (int i = 0; i < b.size(); i++)
+		{
+			if (!isMember(b.get(i)))
+			{
+				subset = false;
+				break;
+			}
+		}
+		return subset;
+	}
 
-        ArrayList<Integer> L3 = new ArrayList<Integer>();
+	public void add(int x)
+	{
+		L.add(x);
+	}
+
+	public void add(Integer x)
+	{
+		L.add(x);
+	}
+
+	public void add(int[] x)
+	{
+		for (int i = 0; i < x.length; i++)
+		{
+			L.add(x[i]);
+		}
+	}
+
+	public void add(Integer[] x)
+	{
+		for (int i = 0; i < x.length; i++)
+		{
+			L.add(x[i]);
+		}
+	}
+
+	public void add(ArrayList<Integer> x)
+	{
+		for (int i = 0; i < x.size(); i++)
+		{
+			L.add(x.get(i));
+		}
+	}
+
+	public void copy (Set T)
+	{
+		for (int i = 0; i < this.L.size(); i++)
+		{
+			if (T.isMember(this.L.get(i)) == false)
+			{
+				T.add(this.L.get(i));
+			}
+		}
+	}
+
+	public void print()
+	{
+		for (int  i = 0; i < L.size(); i++)
+		{
+			if (i == L.size() - 1)
+			{
+				System.out.print(L.get(i));
+			}
+
+			else
+			{
+				System.out.print(L.get(i) + ", ");
+			}
+		}
+		System.out.print("\n");
+
+	}
 
 
-        System.out.print(L1);
+	public void findIntersection (Set S, Set T)
+	{
+		for (int i = 0; i < L.size(); i++)
+		{
+			int x = L.get(i);
+			if (S.isMember(x))
+			{
+				T.add(x);
+			}
+		 
+		}
+	}
 
-        System.out.println(L2);
+	public void findUnion (Set S, Set T)
+	{
+		this.copy(T);
+		S.copy(T);
+	}
+	
+	public boolean isFound(int x, ArrayList<Integer> L) 
+	{
+		boolean found = false;
+		for (int i = 0; i < L.size(); i++)
+		{
+			if (L.get(i) == x) 
+			{
+			   found = true; 
+			   break;
+			}
+		}
+		return found;
+	}
 
-        findIntersection(L1, L2, L3);
-
-        System.out.println(L3);
-
-
-        findUnion(L1, L2);
-
-        System.out.println(L2);
-    }
+	public boolean isNotFound(int x, ArrayList<Integer> L) 
+	{
+		boolean found = false;
+		for (int i = 0; i < L.size(); i++)
+		{
+			if (L.get(i) == x) 
+			{
+			   found = true; 
+			   break;
+			}
+		}
+		return !found;
+	}
 }
