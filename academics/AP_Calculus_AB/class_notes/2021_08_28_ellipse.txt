@@ -1,0 +1,7 @@
+Ellipse intro
+---------------
+https://courses.lumenlearning.com/waymakercollegealgebra/chapter/equations-of-ellipses/
+
+Deriving the Equation of an Ellipse Centered at the Origin
+-----------------------------------------------------------
+https://courses.lumenlearning.com/ivytech-collegealgebra/chapter/deriving-the-equation-of-an-ellipse-centered-at-the-origin/
