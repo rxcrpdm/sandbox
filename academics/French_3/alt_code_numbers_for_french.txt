@@ -1,0 +1,54 @@
+à   alt + 133   
+
+À   alt + 0192
+
+â   alt + 131
+Â   alt + 0194
+
+ä   alt + 132
+Ä   alt + 142
+
+æ  alt + 145
+Æ  alt + 146
+
+ç   alt + 135
+Ç   alt + 128
+
+é   alt + 130
+É   alt + 144
+
+è   alt + 138
+È   alt + 0200
+
+ê   alt + 136
+Ê   alt + 0202
+
+ë   alt + 137
+Ë   alt + 0203
+
+î    alt + 140
+Î   alt + 0206
+
+ï    alt + 139
+Ï   alt + 0207
+
+ô   alt + 147
+
+Ô   alt + 0212
+
+œ  alt + 0156
+Œ  alt + 0140
+
+ù   alt + 151
+Ù   alt + 0217
+
+û   alt + 150
+Û   alt + 0219
+
+ü    alt + 129
+Ü   alt + 154
+
+«   alt + 174
+»   alt + 175
+
+€    alt + 0128 (euro symbol)
