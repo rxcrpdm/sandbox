@@ -1,0 +1,112 @@
+01_structure_of_thr_atom
+	01_01_discovery_of_atom
+	01_02_bohr_model
+	01_03_electronic_configuration
+
+
+02_periodic_table
+	02_01_modern_periodic_table
+        02_02_radioactivity
+        02_03_periodic_properties_elements
+
+
+03_ionic_compounds_formulas_and_reactions
+	03_01_chemical_formulas
+	03_02_chemical_reactions_and_equations
+	03_03_bonding
+
+
+04_covalent_compounds_formulas_and_structures
+	04_01_covalent_molecules
+	04_02_lewis_molecular_structures
+	04_03_molecular_geometry
+	04_04_molecular_polarity
+	04_05_covalent_bond_formation
+
+
+05_stoichiometry
+	05_01_dimension_analysis_method
+	05_02_chemical_equalities_and_equivalences
+	05_03_conversion_sequence
+	05_04_percent_composition
+	05_05_empirical_formulas
+	05_06_molecular_formulas
+	05_07_stoichiometric_equations
+
+
+06_gases
+	06_01_gas_laws
+	06_02_ideal_gas_law
+	06_03_standard_temperature_and_pressure
+	06_04_molar_mass_density_and_molar_volume
+	06_05_kinetic_molecular_theory
+	06_06_average_kinetic_energies_and_velocities
+	06_07_real_gases
+	06_08_dalton's_law_of_partial_pressures
+	06_09_experiments_involving_gases
+
+
+07_liquids_and_solids
+	07_01_comparison_of_liquids_and_solids_to_gases
+	07_02_intermolecular_forces
+	07_03_physical_properties_of_liquids
+	07_04_solids
+	07_05_phase_changes
+
+
+08_solutions
+	08_01_introduction_and_definitions
+	08_02_solubility_and_the_solution_process
+	08_03_aqueous_solutions
+	08_04_concentrations_of_solutions
+	08_05_effect_of_temperature_on_solubility
+	08_06_effect_of_pressure_on_solubility
+
+
+09_chemical_equilibrium
+	09_01_equilibrium_expression
+	09_02_manipulating_the_equilibrium_expression
+	09_03_determining_the_value_of_the_equilibrium_constant
+	09_04_using_the_equilibrium_expression
+	09_05_equilibrium_calculations
+	09_06_special_equilibrium_constants
+	09_07_le_chateleur's_principle
+
+
+010_kinetics
+	010_01_reaction_rates
+	010_02_factors_that_affect_reaction_rates
+	010_03_applications_of_selected_rate_laws
+	010_04_theory_of_reaction_rates
+	010_05_reaction_mechanisms
+
+
+011_thermodynamics
+	011_01_essential_definitions
+	011_02_types_of_energy
+	011_03_measurement_of_energy
+	011_04_first_law_of_thermodynamics
+	011_05_entropy_and_the_second_law_of_thermodynamics
+	011_06_gibbs_free_energy
+
+
+012_oxidation_reduction_reactions_and_electrochemistry
+	012_01_oxidation_numbers
+	012_02_balancing_redox_reactions
+	012_03_common_oxidation_reduction_reactions
+	012_04_electrochemistry
+	012_05_quantitive_electrochemistry
+	012_06_important_oxidation_reduction_reactions
+
+
+013_acids_and_bases
+	013_01_acid_base_theories
+	013_02_acid_bases_nomenclature
+	013_03_acids
+	013_04_bases
+	013_05_anhydrides_of_acids_and_bases
+	013_06_neutralization_reactions
+	013_07_polyprotic_acids
+	013_08_bronsted_lowry_theory
+	013_09_complexation_reactions
+	013_010_quantitative_acid_base_chemistry	

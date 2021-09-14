@@ -1,0 +1,62 @@
+01_basic_economics_concepts
+
+	01_01_scarcity
+	01_02_opportunity_cost
+	01_03_production_possibilities_curve
+	01_04_comparative_advantage
+	01_05_demand_supply
+	01_06_market_equilibrium_disequilibrium_changes_in_equilibrium
+
+
+02_basic_economic_indicators_and_business_cycle
+
+	02_01_circular_flow_model
+	02_02_gdp
+	02_03_limitations_of_gdp
+	02_04_unemployment
+	02_05_price_indices_and_inflation
+	02_06_costs_of_inflation
+	02_07_real_vs_nominal_gdp
+	02_08_business cycle
+
+
+03_national_income_and_price_determination
+
+	03_01_aggregate_demand
+	03_02_multipliers
+	03_03_short_run_aggregate_supply
+	03_04_long_run_aggregate_supply
+	03_05_equilibrium_in_AD_AS_model
+	03_06_changes_in_the_AD_AS_model_in_short_run
+	03_07_long_run_self_adjustment
+	03_08_fiscal_policy
+	03_09_automatic_stabilizers
+
+
+04_financial_sector
+	04_01_financial_assets
+	04_02_nominal_vs_real_interest_rates
+	04_03_definition, measurement, and functions of money
+	04_04_banking_and_the_expansion_of_the_money_supply
+	04_05_money_market
+	04_06_monetary_policy
+	04_07_market_for_loanable_funds
+
+
+05_long_run_consequences_of_stablization_policies
+	05_01_fiscal_and_monetary_policies_in_the_short_run
+	05_02_philps_curve
+	05_03_money_growth_and_inflation
+	05_04_crowding_out
+	05_05_deficits_and_debts
+	05_06_economic_growth
+	05_07_public_policy_and_economic_growth
+
+
+06_open_economy_international_trade_and_finance
+	06_01_bLnce_of_payments
+	06_02_exchange_rates
+	06_03_foreign_exchange_market
+	06_04_effect_of_changes_in_policies_and_economic_conditions_on_the_foreign_exchange_market
+	06_05_changes_in_the_foreign_exchange_markets_and_net_exports
+	06_06_real_interest_rates_andinterantaional_capital_flows

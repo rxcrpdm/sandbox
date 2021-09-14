@@ -1,0 +1,23 @@
+les membres de famille = family members
+les proches = relatives
+le grand père = grandfather
+la grand mère = grandmother
+les parents = parents
+l'arrière grand père = great grandfather
+le arrière grand père = great grandmother
+la marraine = godmother
+le parrain = godfather
+le cousin = cousin
+le neveu = nephew
+la nièce = niece
+l'oncle = uncle
+la tante = aunt
+le beau-frère = brother-in-law
+la belle soeur = sister-in-law
+la belle fille = daughter-in-law
+le beau père = father-in-law
+la belle-mère = mother-in-law
+le beau fils = son-in-law
+le ancêtre = ancestor
+le descendant = descendant
+
